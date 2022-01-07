@@ -1,0 +1,19 @@
+Requirements Analysis- 
+1. We have a resume and need to be uploaded-view
+2.Read the resume - controller 
+3.Divide it into simple strings.- controller
+4.Attributes that are to be retrieved are-Name,Email,Phone No,Skill set and education.-controller
+5.To create an object for formatting  and storing in database.-model
+6. Make a couchdb connection - provider
+7.Storing the formatted object.- provider
+8.Get the Values that are stored in Db and Print it.-provider
+
+
+MVC Architecture:
+Model-View-Controller
+-provider(CouchDb connections)
+
+Issues:
+1. while extracting name the function is not picking the name.
+2. Create the file for skill set.
+3. Education qulification are not extracted from Doc file.
